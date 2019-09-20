@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- link styles -->
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Better than Amazon LLC</a>
+</nav>
+
+
+<div class="container"> 
+    <!-- all the content goes here -->
+    <!-- search panel -->
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 search-container">
+            <label>Filter catalog</label>
+            <input id="txtSearch" placeholder="Search by text" type="text">
+            <button class="btn btn-sm btn-primary" id="btnSearch">Search</button>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <div class="row"></div>
+
+    <!-- catalog area-->
+    <div class="col-md-9" id="catalog">
+        
+    </div>
+
+    <form>
+        <input type="Search by text">
+    </form>
+
+    <div class="col-md-3" class="categories">
+        <h4>Categories</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Display</li>
+            <li class="list-group-item">Keyboard</li>
+            <li class="list-group-item">Mouse</li>
+            <li class="list-group-item">Laptops</li>
+            <li class="list-group-item">Servers</li>
+        </ul>
+    </div>
+
+</div>
+
+    <!-- link scripts -->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/store.js"></script>
+    
+</body>
+</html>
+
